@@ -24,3 +24,14 @@ Aplikacja została zoptymalizowana do działania na kartach graficznych NVIDIA (
 ```bash
 git clone [https://github.com/TWOJ_NICK/ai-image-enhancer.git](https://github.com/TWOJ_NICK/ai-image-enhancer.git)
 cd ai-image-enhancer
+
+## 🙏 Podziękowania / Acknowledgments
+
+Ten projekt opiera się na wybitnych osiągnięciach społeczności open-source oraz badaczy AI. Ogromne podziękowania dla twórców poniższych technologii i modeli, bez których ta aplikacja nie mogłaby powstać:
+
+* **[Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) & [GFPGAN](https://github.com/TencentARC/GFPGAN)** (Xintao Wang / Tencent ARC) – za niesamowite algorytmy do upscalingu i bezbłędnej restauracji twarzy.
+* **[BiRefNet](https://github.com/ZhengxiaZou/BiRefNet)** (Zhengxia Zou) – za wybitny, potężny model do precyzyjnego wycinania tła (oraz dla twórców pakietu `rembg`).
+* **[LaMa (Resolution-robust Large Mask Inpainting)](https://github.com/advimman/lama)** – za świetny model do inpaintingu, który stanowi rdzeń systemu usuwania znaków wodnych (via `simple_lama_inpainting`).
+* **[HAT (Hybrid Attention Transformer)](https://github.com/XPixelGroup/HAT)** – za dostarczenie architektur do najwyższej jakości upscalingu SRx4.
+* **[DDColor](https://github.com/piddnad/DDColor)** – za wspaniałe algorytmy do realistycznej koloryzacji historycznych i czarno-białych zdjęć.
+* Twórcom i rozwijającym potężne biblioteki stanowiące fundament projektu: **[PyTorch](https://pytorch.org/)**, **[PyQt6](https://riverbankcomputing.com/software/pyqt/)**, **[OpenCV](https://opencv.org/)** oraz **[Pillow](https://python-pillow.org/)**.
