@@ -1,0 +1,33 @@
+# AI Image Enhancer - wymagania
+# Zainstaluj: pip install -r requirements.txt
+
+# GUI
+customtkinter>=5.2.2
+Pillow>=10.3.0
+
+# ML core
+torch>=2.2.0
+torchvision>=0.17.0
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Usuwanie tła (BiRefNet)
+rembg[gpu]>=2.0.57
+
+# Upscaling (Real-ESRGAN fallback)
+basicsr>=1.4.2
+realesrgan>=0.3.0
+
+# Denoise/Deblur pipeline (DiffBIR/SUPIR przez diffusers)
+diffusers>=0.27.0
+transformers>=4.40.0
+accelerate>=0.29.0
+safetensors>=0.4.3
+
+# Przetwarzanie obrazów
+opencv-python>=4.9.0
+numpy>=1.26.0
+scipy>=1.13.0
+
+# DDColor
+einops>=0.7.0
+timm>=0.9.16
