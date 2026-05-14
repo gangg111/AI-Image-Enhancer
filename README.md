@@ -20,11 +20,6 @@ Aplikacja łączy w sobie potęgę wielu dedykowanych modeli sieci neuronowych, 
 
 Aplikacja została zoptymalizowana do działania na kartach graficznych NVIDIA (np. RTX 3080) przy użyciu środowiska **CUDA**.
 
-### 1. Klonowanie repozytorium
-```bash
-git clone [https://github.com/TWOJ_NICK/ai-image-enhancer.git](https://github.com/TWOJ_NICK/ai-image-enhancer.git)
-cd ai-image-enhancer
-
 ## 🙏 Podziękowania / Acknowledgments
 
 Ten projekt opiera się na wybitnych osiągnięciach społeczności open-source oraz badaczy AI. Ogromne podziękowania dla twórców poniższych technologii i modeli, bez których ta aplikacja nie mogłaby powstać:
