@@ -2,7 +2,7 @@
 
 Zaawansowana, w 100% działająca offline aplikacja desktopowa do poprawy jakości, upscalingu i edycji obrazów przy użyciu najnowocześniejszych modeli sztucznej inteligencji. Aplikacja została napisana w Pythonie (PyQt6) i wykorzystuje akcelerację GPU (CUDA) do błyskawicznego przetwarzania.
 
-![AI Image Enhancer GUI](https://via.placeholder.com/800x450.png?text=Wstaw+tutaj+screenshot+z+aplikacji)
+![AI Image Enhancer GUI](https://github.com/gangg111/AI-Image-Enhancer/blob/main/screenshot.png))
 *(Zalecane: wstaw tutaj zrzut ekranu pokazujący suwak Przed/Po)*
 
 ## ✨ Główne funkcje
