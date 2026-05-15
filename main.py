@@ -1336,7 +1336,7 @@ class MainWindow(QMainWindow):
         hlay.setContentsMargins(20, 18, 20, 16)
         hlay.setSpacing(4)
         lbl_title = QLabel("AI Image Enhancer"); lbl_title.setObjectName("lbl_title")
-        lbl_sub   = QLabel("RTX 3080  \u00b7  100% OFFLINE"); lbl_sub.setObjectName("lbl_sub")
+        lbl_sub   = QLabel("NVIDIA GPU  \u00b7  LOKALNE MODELE"); lbl_sub.setObjectName("lbl_sub")
         hlay.addWidget(lbl_title)
         hlay.addWidget(lbl_sub)
         vbox.addWidget(header)
