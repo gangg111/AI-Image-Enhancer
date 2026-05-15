@@ -752,7 +752,7 @@ OPERATIONS = [
     ("Wyostrzenie",         "OpenCV",      process_sharpen),
     ("UPSCALING",           None,          None),
     ("Upscaling",           "Real-ESRGAN", "_UPSCALE_MENU"),
-    ("RESTAURACJA",         None,          None),
+    ("RESTORACJA",         None,          None),
     ("Przywroc twarz",      "GFPGAN",      process_restore_face),
     ("Denoise/Deblur",      "DiffBIR",     process_diffbir),
     ("Koloryzacja",         "DDColor",     process_colorize),
